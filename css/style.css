@@ -1,0 +1,107 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size:39px;
+    font-weight: 500;
+}
+
+
+a{
+    text-decoration: none !important;
+}
+
+a .bi{
+    font-size: 24px;
+}
+
+#footer ul{
+    list-style-type: none;
+    padding-left:0;
+}
+
+#topFooter a, aside a{
+    color: #393939;
+}
+
+#topFooter, #cta{
+    background-color: #bcd0ff;
+}
+
+#cta2{
+    background-color: #ffe4c4;
+    font-size:40px;
+}
+
+#hizmetlerim h2, #portfolyo h2{
+    font-size:24px !important;
+}
+
+#cta .col-md-9{
+    font-size:40px;
+}
+
+.py-22{
+    padding-top:220px;
+    padding-bottom:220px;
+}
+
+#aboutusBanner {
+    background-image: url('../img/hakkimda.webp');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* #aboutusBanner:before{
+    content: "";
+    position: relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0,0,0,0.4);
+} */
+
+#aboutUs i{
+    color:#ff0000;
+}
+
+#portfolyoBanner {
+    background-image: url('../img/portfolyo-banner-192x823.webp');
+    background-position: center center;
+    background-size: cover;
+}
+
+#blogBanner {
+    background-image: url('../img/blog-banner-1920x873.webp');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#iletisimBanner {
+    background-image: url('../img/iletisim-background-1920x1280.webp');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#portfolyo img{
+    cursor: pointer;
+}
+
+
+/* #blogList .col-md-8 a:after{
+    content: ">";
+    position: relative;
+} */
+
+/* main .row{
+    margin-bottom:25px;
+} */
